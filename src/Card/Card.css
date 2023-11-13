@@ -1,0 +1,25 @@
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem 4rem;
+    margin-right: 2rem;
+    border-radius: 0.7rem;
+    align-items: center;
+}
+.cardImage{
+    width: 8rem;
+    border-radius: 4rem;
+    background-color:#f1f1f1;
+}
+.viewBtn{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    padding:0.8rem 2.9rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0;
+}

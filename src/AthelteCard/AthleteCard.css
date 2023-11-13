@@ -1,0 +1,27 @@
+.athleteCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem 4rem;
+    margin-right: 2rem;
+    border-radius: 0.7rem;
+    align-items: center;
+}
+.info,.nandno,.rinfo{
+    display: flex;
+}
+.info{
+    flex-direction: column;
+}
+.rinfo,.nandno{
+    /* background-color: red; */
+    width: 100%;
+    justify-content: space-between;
+}
+.info p:nth-child(2) {
+margin: 5px 0;
+}
+.info p:first-child{
+    font-weight: bold;
+}

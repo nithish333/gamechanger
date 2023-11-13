@@ -1,0 +1,45 @@
+.mtcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4rem;
+}
+.mttop{
+    display: flex;
+    gap:4rem;
+    height: 4rem;
+    align-items: center;
+}
+.searchBar{
+    position: relative;
+}
+.searchBox{
+    width: 20rem;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+}
+.searchBtn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 3rem;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+}
+.addTeamBtn{
+    transition: all 0.3s ease;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+}
+.addTeamBtn:hover{
+background-color: #f1f1f1;
+}
+.teamCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+    row-gap: 2rem;
+}

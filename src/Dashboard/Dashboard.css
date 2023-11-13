@@ -1,0 +1,46 @@
+.dContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dImage{
+    width: 10rem;
+}
+.dLinks{
+    display: flex;
+    margin-top: 2.5rem;
+}
+.dLink{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem 3rem;
+    margin-right: 2rem;
+    border-radius: 0.7rem;
+}
+.dLink:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dBtn{
+    background-color: #059669;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding:0.2rem 1rem ;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.dBtn:hover .icon{
+    transform: translateX(0.3rem);
+}
+.icon{
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+    transition: all 0.4s ease;
+}
